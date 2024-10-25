@@ -1,0 +1,18 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <ActionBar title="{{ 'app.title' | L }}" />
+    
+    <TabView>
+        <TabViewItem title="{{ 'tabs.dashboard' | L }}">
+            <Frame defaultPage="views/dashboard/dashboard-page" />
+        </TabViewItem>
+        <TabViewItem title="{{ 'tabs.patients' | L }}">
+            <Frame defaultPage="views/patients/patients-page" />
+        </TabViewItem>
+        <TabViewItem title="{{ 'tabs.appointments' | L }}">
+            <Frame defaultPage="views/appointments/appointments-page" />
+        </TabViewItem>
+        <TabViewItem title="{{ 'tabs.settings' | L }}">
+            <Frame defaultPage="views/settings/settings-page" />
+        </TabViewItem>
+    </TabView>
+</Page>

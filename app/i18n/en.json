@@ -1,0 +1,17 @@
+{
+  "app": {
+    "title": "Hospital Management System"
+  },
+  "tabs": {
+    "dashboard": "Dashboard",
+    "patients": "Patients",
+    "appointments": "Appointments",
+    "settings": "Settings"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password"
+  }
+}
